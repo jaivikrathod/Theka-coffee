@@ -1,0 +1,180 @@
+#menuIcon {
+  display: none;
+  margin-left: 5px;
+  /* transition: 3s; */
+  position: absolute;
+  margin-top: -6vh;
+  z-index: 10000;
+  border: 0px solid white;
+}
+
+
+#sidebarMenu {
+  left: 1px;
+  top: 1px;
+  position: absolute;
+  background-color: #2f3641;
+  font-size: 12px;
+  overflow: auto;
+  width: 14vw;
+  height: 91vh;
+  grid-area: side;
+  /* transition: 3s; */
+}
+
+
+.nav-link {
+  color: white;
+}
+
+
+
+.nav-link:hover {
+  color: #595959;
+}
+
+
+.close-div {
+  display: flex;
+  justify-content: end;
+}
+
+#closeIcon {
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+
+#sidebar-logos {
+  font-size: 17px;
+}
+
+#wholeside {
+  display: block;
+  position: fixed;
+}
+
+.below-items-forResponsive {
+  display: none;
+}
+
+.belowIcons {
+  /* margin-top: 24vh;
+    margin-right: 20px;
+    margin-left: 10px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+#dropOrders {
+  display: none;
+  margin-left: 25px;
+
+}
+
+.hidden {
+  opacity: 0;
+  transition: opacity 0.7s ease;
+  pointer-events: none;
+
+}
+
+.visible {
+  opacity: 1;
+  transition: opacity 0.7s ease;
+  pointer-events: visible;
+}
+
+
+
+
+/* reponsive sidebar */
+
+
+@media only screen and (max-width:1418px) {
+  .sidebar-text {
+    display: block;
+  }
+
+  .all-side-items {
+    display: flex;
+    justify-content: center;
+  }
+
+  .belowIcons {
+    gap: 35px;
+  }
+
+  #dropOrders {
+    margin-left: 0px;
+  }
+
+  .belowIcons {
+    position: relative;
+    margin-top: 40px;
+  }
+
+
+}
+
+@media only screen and (max-width:900px) {
+  .sidebar-text {
+    display: none;
+  }
+
+  .dropOrdersClass {
+    display: none;
+  }
+
+  #sidebarMenu {
+    width: 12vw !important;
+  }
+
+}
+
+@media only screen and (max-width:1300px) {
+  .belowIcons {
+    display: none;
+  }
+
+  .below-items-forResponsive {
+    display: block;
+  }
+
+}
+
+/* @media only screen and (max-height:1px) {
+    .belowIcons {
+      margin-top: 40vh;
+      margin-right: 20px;
+      margin-left: 10px;
+      display: flex;
+      justify-content: center;
+      gap: 40px;
+    }
+  } */
+
+@media only screen and (max-height:560px) {
+  .belowIcons {
+    position: relative;
+    margin-top: 40px;
+  }
+}
+
+@media only screen and (max-width:1140px) {
+  #sidebarMenu {
+    width: 17vw;
+  }
+}
+
+@media only screen and (max-width:570px) {
+  #sidebarMenu {
+    width: 19vw !important;
+  }
+}

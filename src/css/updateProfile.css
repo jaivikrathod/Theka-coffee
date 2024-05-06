@@ -1,0 +1,73 @@
+.card {
+    width: 85vw;
+    margin-left: 0.4vw;
+    /* margin-top: 5vw; */
+    border-radius: 0;
+    height: 23vh;
+    /* position: relative; */
+}
+
+.main_con {
+    /* grid-area: con; */
+    margin-left: 220px;
+    margin-top: 7px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    height: 90vh;
+
+}
+
+.card-body {
+    background: #04AA6D;
+    height: 25vh;
+}
+
+.card-title {
+    font-weight: 700;
+}
+
+/* form */
+#conn {
+    margin-left: 15vw;
+
+}
+
+.layout3 {
+    background-color: white;
+    margin-left: 2.7vw;
+    margin-top: -3vh;    
+    position: relative;
+    display: flex;
+    height: 40vh;
+    width: 80vw;
+    /* width: 100vw; */
+}
+
+.res-form3 {
+    padding: 1.5%;
+    /* width: 82vw; */
+    margin-left: 2vw;
+    margin-top: -5vh;
+    background: white;
+    /* height: 40vh; */
+    /* border: solid;  */
+}
+
+.img-design {
+    height: 50vh;
+    width: 35vw;
+    display: flex;
+    /* justify-content:space-between; */
+    align-items: center;
+   
+}
+
+.profile-logo {
+    /* margin-top: 70px; */
+    border: 1px solid rgb(198, 188, 188);
+    border-radius: 100%;
+    height: 30vh;
+    /* width: 15vw; */
+    margin-top: 15vh;
+    margin-left: 50px;
+}

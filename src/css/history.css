@@ -1,0 +1,29 @@
+.main_table_contanier {
+    position: absolute;
+    background-color: white;
+    height: 60vh;
+    width: 80vw;
+    border-radius: 1.2px;
+    margin-left: 40px;
+    margin-top: -3.7vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#collapse1 {
+    overflow-y: scroll;
+    height: 200px;
+}
+
+.table-content {
+    width: 60vw;
+    margin-top: 2vh;
+    margin-left: -12vw;
+
+}
+
+.table-content table {
+    cursor: pointer;
+}

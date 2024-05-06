@@ -1,0 +1,242 @@
+
+  
+  .bg_color {
+    background-color: #2F3640;
+  }
+  
+  .d-flex_another {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100vw;
+  }
+  
+  .container_main {
+    display: flex;
+    height: 80vh;
+    width: 65vw;
+    background-color: #4A5159;
+    border-radius: 15px;
+  }
+  
+  .container-left img {
+    /* background-image: url('./assets/logo.jpeg');
+    width: 30%;
+    height: 55%;
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover; */
+    height: 45%;
+    width: 50%;
+    border-radius: 50%;
+  }
+  
+  .container-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 100%;
+  }
+  
+  .line {
+    background-color: white;
+    width: 0.4%;
+    height: 90%;
+    margin: auto 0;
+    border-radius: 25px;
+  }
+  
+  .container-right {
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    width: 50%;
+    height: 100%;
+    /* margin: 0; */
+    margin: 30px 15px;
+    /* margin-top: 50px; */
+  }
+  
+  .right-inner h1 {
+    text-align: center;
+    color: white;
+    font-size: 3rem;
+  
+  }
+  
+  .right-inner {
+    width: 80%;
+    height: 80%;
+  }
+  
+  .formlogin {
+    text-align: center;
+    margin-top: 7%;
+  }
+  
+  .user-logo img {
+    height: 16vh;
+    width: 7.5vw;
+    background-color: white;
+    border-radius: 50%;
+    border: 3.5px solid black;
+  }
+  
+  
+  .user-logo {
+    text-align: center;
+    margin: 25px 30px;
+  }
+  
+  .formlogin input {
+    margin: 10px;
+    width: 70%;
+    height: 4.4vh;
+    border-radius: 7px;
+    background-color: #E8E5E4;
+    font-size: 1.1rem;
+    padding-left: 5px;
+  }
+  
+  #otp {
+    margin: 10px;
+    width: 50%;
+    height: 4.4vh;
+    border-radius: 7px;
+    background-color: #E8E5E4;
+    font-size: 1.1rem;
+    padding-left: 5px;
+  }
+  
+  ::-webkit-input-placeholder {
+    text-align: center;
+  }
+  
+  :-moz-placeholder {
+    text-align: center;
+  }
+  
+  .formlogin a {
+    text-decoration: none;
+    color: #E8E5E4;
+  }
+  
+  .forgot {
+    text-align: end;
+    width: 83%;
+  }
+  
+  .frgt:hover {
+    color: white;
+    text-decoration: underline;
+  }
+  
+  /* CSS */
+  #login_submit {
+    margin-top: 10px;
+    background: white;
+    border-radius: 999px;
+    /* height: 20px; */
+    /* box-shadow: #E8E5E4 0 10px 20px -10px; */
+    box-sizing: border-box;
+    color: black;
+    cursor: pointer;
+    font-family: Inter, Helvetica, "Apple Color Emoji", "Segoe UI Emoji", NotoColorEmoji, "Noto Color Emoji", "Segoe UI Symbol", "Android Emoji", EmojiSymbols, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", "Noto Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 25px;
+    opacity: 1;
+    outline: 0 solid transparent;
+    padding: 10px 35px;
+    -webkit-user-select: none;
+    user-select: none;
+    touch-action: manipulation;
+    word-break: break-word;
+    border: 0;
+  }
+  
+  #send_otp {
+    width: inherit;
+    /* padding: 6px 1px !important; */
+  }
+  
+  #new_pass {
+    text-align: center;
+    color: white;
+  }
+  
+  #setnewpass {
+    padding: 5px 15px;
+  }
+  
+  #submit_form {
+    margin-top: 4vh;
+  }
+  
+  button:hover {
+    background-color: #E8E5E4;
+    transition: all ease 0.5s;
+  }
+  
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  
+  /* a:hover {
+    text-decoration: underline;
+  } */
+  
+  /* Search button */
+  
+  
+  .search-form {
+    right: 200px;
+    top: 200px;
+  }
+  
+  .search-field {
+    background-color: transparent;
+    /* background-image: url(https://wp-themes.com/wp-content/themes/twentythirteen/images/search-icon.png); */
+    /* background-image: url('./assets/search_icon.jpg'); */
+    background-position: 5px center;
+    background-repeat: no-repeat;
+    background-size: 24px 24px;
+    border: none;
+    cursor: pointer;
+    height: 40px;
+  
+    margin: 3px 0;
+    margin-right: -20px;
+    padding: 0 0 0 24px;
+    position: relative;
+    -webkit-transition: width 400ms ease, background 400ms ease;
+    transition: width 400ms ease, background 400ms ease;
+    width: 0px;
+    cursor: pointer;
+  }
+  
+  .search-field:focus {
+    background-color: rgb(237, 232, 232);
+    border: 2px solid transparent;
+    color: black;
+    cursor: text;
+    outline: 0;
+    width: 250px;
+    /* color: #fff; */
+    /* display: none; */
+    /* margin-left: -1.6vw; */
+    /* z-index: 2; */
+    border-radius: 6px;
+    margin-right: 2px;
+  
+  }
+  
+  .search-form .search-submit {
+    display: none;
+  }
+  
+  
+  

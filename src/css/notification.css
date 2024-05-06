@@ -1,0 +1,81 @@
+.notify-container {
+    position: relative;
+    background-color: white;
+    height: 72vh;
+    width: 81vw;
+    margin-left: 3vw;
+    margin-top: -4vh;
+    border-radius: 20px;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    gap: 5%;
+}
+
+.notify-box1 {
+    display: flex;
+    gap: 3%;
+}
+
+.notify-form-header1 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.notify-form-header2 {
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 7vh;
+}
+
+.select-notify {
+    border-radius: 20px;
+    padding: 1.2%;
+    width: 50%;
+    border: none;
+    background-color: #e8e6e6;
+}
+
+.select-manager {
+    width: 34vw;
+}
+
+.notify-buttons-con {
+    display: flex;
+    gap: 3.5vw;
+    margin-top: 5vh;
+}
+
+.notify-buttons {
+    /* padding: 1%; */
+    /* margin-top: 50px; */
+
+    width: 10vw;
+    height: 7vh;
+    background-color: #04AA6D;
+    opacity: 0.8;
+    color: white;
+    border-radius: 15px;
+}
+
+.notify-buttons:hover {
+    opacity: 1.5;
+}
+
+.product-text {
+    border: none;
+    border-radius: 10px;
+    padding: 1%;
+    background-color: #e8e6e6;
+}
+
+.messageTable {
+    width: 42vw;
+    margin-left: 36.7vw;
+    margin-top: -23vw;
+    height: 50vh;
+}
+
+.lesswidth {
+    width: 40.3vw;
+}

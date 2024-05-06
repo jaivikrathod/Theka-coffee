@@ -1,0 +1,21 @@
+#mainTables{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+ #mainTables th{ 
+    background-color:cadetblue;
+}
+#mainTables table{
+    width: 70vw;
+    width: 70vw;
+}
+
+.plusIcon{
+    margin-left: 65vw;
+    margin-top: 10vh;
+    font-size: 35px;
+}
+.accepteReject button{
+    margin: 1px;
+}

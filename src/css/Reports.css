@@ -1,0 +1,49 @@
+.report-container {
+    /* background-color: #04AA6D; */
+    color: white;
+    font-size: 25px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 3%;
+    position: relative;
+    height:68vh;
+    width: 85vw;
+    margin-left: 0.4vw;
+    /* margin-top: 10vh; */
+}
+
+.report-con-boxes {
+    display: flex;
+    gap: 5vw;
+    padding: 1%;
+}
+
+.margin-top-big{
+    margin-top: 10vh;
+    
+}
+.report-con-boxe1 {
+    background-color: white;
+    padding: 2%;
+
+    width: 55vw;
+    /* margin-left: 2vw; */
+    /* margin-bottom:; */
+    margin-top: -7vh;
+    border: none;
+}
+
+.report-con-boxe2 {
+    padding: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.report-buttons {
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 5%;
+    width: 15vw;
+    cursor: pointer;
+}
